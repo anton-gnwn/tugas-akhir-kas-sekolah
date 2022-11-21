@@ -1,0 +1,107 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #2c3e50;
+	background-size: cover;
+	font-family: sans-serif;
+}
+.loginBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	height: 320px;
+	padding: 30px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+
+h2
+{
+	margin: 0;
+	padding: 0 0 25px;
+        font-family: Copperplate Gothic Bold;
+        font-size: 32px;
+        font-weight: bold;
+	color: orangered;
+	text-align: center;
+    
+}
+
+table{
+    margin: 0 auto;
+    width: 500px;
+    color: white;
+}
+
+#input{
+    width: 178px;
+    height: 23px;
+}
+
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 30px;
+        width: 70px;
+	color: white;
+	font-size: 14px;
+        font-weight: bold;
+	background: blue;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.loginBox input[type="submit"]:hover
+{
+	background: #2f347d;
+	color: orangered;
+        font-weight: bold;
+}
+
+.loginBox input[type="reset"]
+{
+	border: none;
+	outline: none;
+	height: 30px;
+        width: 70px;
+	color: white;
+	font-size: 14px;
+        font-weight: bold;
+	background: red;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.loginBox input[type="reset"]:hover
+{
+	background: #2f347d;
+	color: red;
+        font-weight: bold;
+}
+
+.loginBox p
+{
+	margin-top: 20px;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+
+a
+{
+	color: blue;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: orangered;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}

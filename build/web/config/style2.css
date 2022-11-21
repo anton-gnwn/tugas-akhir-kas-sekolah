@@ -1,0 +1,70 @@
+*{
+    padding: 0;margin: 0;
+}
+
+
+body { 
+    font-family: 'Franklin Gothic Demi Cond';
+    background-image: url('../img/background.jpg');  
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background: #005cbf;
+    border-bottom: 5px solid #33ccff;
+    margin-bottom: 20px;
+}
+
+.navbar-brand img{
+    width: 140px;
+    height: 50px; 
+}
+
+.navbar a:hover{
+    color: #F9B234 !important;
+}
+
+.nav-item {
+    margin-right: 24px;
+    font-weight: 200;
+}
+
+.nav-item a{
+    color: black !important;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: #F9B234 !important;
+    font-weight: 600;
+}
+
+
+.nav-link a:hover{
+    color: #F9B234 !important;
+    font-weight: 600;
+}
+
+.navbar-collapse a {
+    padding: 2px;
+}
+
+.navbar-collapse button:hover {
+    color: #F9B234 !important;
+}
+
+.nav-item dropdown{
+    background: #004085;
+}
+
+.box{
+    background: white;
+    height: 85%;
+    width: 100%;
+    margin-top: 85px;
+    overflow-y: scroll;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
